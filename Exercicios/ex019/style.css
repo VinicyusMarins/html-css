@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #dafdba;
+}
+
+div{
+    text-align: center;
+}
+
+.hide{
+    color: #45c4b0
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #9aeba3;
+}
+
+.box{
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #45c4b0;
+}
+
+div:hover{
+    background-color: #13678a;
+}
+
+div:hover > p{
+    color: #012030;    
+}
