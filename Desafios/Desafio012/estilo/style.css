@@ -90,4 +90,5 @@ footer{
     background-color: #000;
     color: #fff;
     text-align: center;
+    font-family: var(--fonteTitulo);
 }
