@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+:root{
+    --fonteTexto: "Caveat", cursive;
+    --fonteTitulo: "Playwrite DE Grund", cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -19,6 +27,8 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 6vw;
+    font-family: var(--fonteTitulo);
 }
 
 header > p{
@@ -40,6 +50,14 @@ section{
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-family: var(--fonteTexto);
+}
+
+section p{
+    display: inline-block;
+    min-width: 400px;
+    margin-bottom: 35px;
+    font-size: 3.5vw;
 }
 
 section.normal{
@@ -50,11 +68,21 @@ section.normal{
 section.imagem{
     background-color: #585858;
     color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
-    width: 400px;
     background-color: #00000034;
+}
+
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img02{
+    background-image: url(../imagens/background002.jpg);
 }
 
 footer{
