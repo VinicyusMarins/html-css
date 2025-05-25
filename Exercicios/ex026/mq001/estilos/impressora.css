@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/*Versão para Impressoras*/
+
+*{
+    margin: 10px;
+    padding: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+menu{
+    display: none;
+}
+
+main{
+    font-size: 1.2em;
+}
+
+main article::after{
+    content: 'Impresso no Site teste de Media Queries!';
+}
