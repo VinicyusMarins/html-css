@@ -1,9 +1,75 @@
 @charset "UTF-8";
 
 *{
+    padding: 0;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body{
     background-color: lightgray;
+}
+
+header{
+    background-color: gray;
+}
+
+header h1{
+    padding: 15px;
+    text-align: center;
+}
+
+header>div{
+    display: block;
+    margin-bottom: 2px;
+    height: 35px;
+    background: rgb(90, 90, 90) url(../imagens/menu.png) no-repeat center center;
+}
+
+header>div:hover{
+    background-color: rgb(66, 66, 66);
+}
+
+#itens{
+    display: none;
+}
+
+menu ul{
+    list-style-type: none;
+}
+
+menu li{
+    margin-bottom: 2px;
+    padding: 10px;
+    background-color: rgb(90, 90, 90);
+    text-align: center;
+}
+
+menu a{
+    color: white;
+    text-decoration: none;
+}
+
+menu li:hover{
+    background-color: rgb(66, 66, 66);
+}
+
+main{
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    width: 80vw;
+    background-color: white;
+    border-radius: 12px;
+}
+
+main h2{
+    margin-bottom: 10px;
+}
+
+main p{
+    margin-bottom: 15px;
+    padding: 5px;
+    text-align: justify;
+    text-indent: 20px;
 }
